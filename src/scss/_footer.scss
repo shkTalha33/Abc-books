@@ -1,0 +1,93 @@
+.footer{
+    .newletter{
+        display: flex;
+        align-items: center;
+        box-sizing: border-box;
+        justify-content: center;
+        background-image: url("../assets/pics/hero/footerTop.jpg");
+        form{
+            text-align: center;
+        }
+         input{
+            border-radius: 20px;
+            border: none;
+            outline: none;
+            padding: 10px 20px;
+        }
+        p{
+            font-size: 14px;
+            text-align: center;
+            color: rgb(167, 136, 136);
+        }
+        h1{
+            text-align: center;
+            color: white;
+        }
+        button{
+            background-color: rgb(230, 153, 11);
+            border-radius: 25px;
+            border: none;
+            color: white;
+            padding: 10px 15px;
+            margin-left: 10px;
+            transition: all 0.5s;
+            &:hover{
+                background-color: #e85d04;
+            }
+        }
+    }
+    span{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height:30px;
+        width:30px;
+        padding: 4px;
+        opacity: 0.5;
+        font-size: 12px;
+        box-sizing: border-box;
+        border: 1px solid gray;
+      border-radius: 50%;
+        object-fit: contain;
+        &:hover{
+            background-color:rgb(230, 153, 11);
+            color: white;
+            border: 0px;
+            opacity: 1;
+            cursor: pointer;
+        }
+    }
+    .book-category-1{
+        h5{
+            color: #001845;
+        }
+        p{
+            font-size: 13px;
+            &:hover{
+                text-decoration: underline;
+                cursor: pointer;
+            }
+        }
+    }
+    .book-category-2{
+        p{
+            font-size: 13px;
+            &:hover{
+                text-decoration: underline;
+                cursor: pointer;
+            }
+        }
+    }
+    .site-category{
+        h5{
+            color: #001845;
+        }
+        p{
+            font-size: 13px;
+            &:hover{
+                text-decoration: underline;
+                cursor: pointer;
+            }
+        }
+    }
+}

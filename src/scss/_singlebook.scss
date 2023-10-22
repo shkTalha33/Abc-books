@@ -1,0 +1,37 @@
+.singlebook-container{
+    .button-section{
+
+    .button{
+        margin: 0px 5px;
+        background-color: transparent;
+        padding: 10px 20px;
+        border-radius: 25px;
+        border: 1px solid rgb(233, 211, 211);
+       
+    }
+    .active-btn{
+            background-color: orangered;
+            color: white;
+            border: 1px solid orange;
+            outline: none;
+            margin: 0px 5px;
+            padding: 10px 20px;
+            border-radius: 25px;
+    }
+}
+}
+
+@media (max-width:425px) {
+    .singlebook-container{
+        .button-section{
+        .button{
+            margin: 5px 5px;
+           
+        }
+        .active-btn{
+                margin: 5px 5px;
+        }
+    }
+    }
+}
+

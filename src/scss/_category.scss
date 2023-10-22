@@ -1,0 +1,178 @@
+.category {
+  .filter-section {
+     height: auto;
+     border: 1px solid rgb(241, 229, 229);
+   .filter-category{
+    p {
+      font-size: 15px;
+      font-weight: 700;
+      font-family: serif;
+    }
+    .filter-category {
+      .circle-box {
+        .ant-checkbox-inner {
+          border-radius: 50%;
+          height: 20px;
+          width: 20px;
+        }
+      }
+    }
+  }
+}
+  .book-section {
+    .category-books {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+      align-content: space-around;
+      padding: 0;
+      .book-card {
+         width: 32%;
+        .ant-card-body {
+          padding: 0px;
+        }
+        img {
+          display: block;
+          width: 100%;
+          max-height: 300px;
+          object-fit: cover;
+        }
+        .books{
+         margin-top: 10px;
+         padding-left: 5px;
+         margin-bottom: 0px;
+       
+         font-size: 14px;
+         font-weight: 700;
+        }
+        .author{
+         margin-bottom: 0px;
+         margin-top: 5px;
+         padding-left: 5px;
+         font-size: 13px;
+         opacity: 50%;
+       }
+        .book-footer{
+         .price{
+           color: orange;
+           font-size: 22px;
+         }
+         .reviews{
+           font-size: 14px;
+         }
+        }
+      }
+    }
+  }
+}
+
+
+@media (min-width:1024px) {
+   .category {
+      .book-section {
+        .category-books {
+          .book-card {
+             width: 30%;
+            img {
+              display: block;
+              width: 100%;
+              max-height: 300px;
+              object-fit: cover;
+            }
+          }
+        }
+      }
+    }
+}
+@media (min-width:769px) {
+   .category {
+      .book-section {
+        .category-books {
+          .book-card {
+             width: 30%;
+            
+           
+          }
+        }
+      }
+    }
+}
+@media (max-width:425px) {
+   .category {
+      .book-section {
+        .category-books {
+          .book-card {
+             width: 50%;
+             .books{
+               font-size: 18px;
+                 padding: 0px 30px;     
+                }
+                .author{
+               font-size: 18px;
+                 padding: 0px 30px;
+           
+               }
+               .book-footer{
+               //   padding: 0px 30px;
+                 .price{
+                   font-size: 25px;
+                   text-align: end;
+                   padding-right: 30px;
+                 }
+                 .reviews{
+                   font-size: 20px;
+                    
+                 }
+                 
+               }
+           
+          }
+        }
+      }
+    }
+}
+@media (max-width:375px) {
+   .category {
+      .book-section {
+        .category-books {
+          .book-card {
+             width: 49%;
+             .books{
+               font-size: 16px;
+               //   padding: 0px 30px;     
+                }
+                .author{
+               font-size: 16px;
+               //   padding: 0px 30px;
+         
+               }
+               .book-footer{
+               //   padding: 0px 30px;
+                 .price{
+                   font-size: 25px;
+                   text-align: end;
+                   padding-right: 25px;
+                 }
+                 .reviews{
+                   font-size: 15px;
+                    
+                 }
+                 
+               }
+             
+          }
+        }
+      }
+    }
+}
+@media (max-width:320px) {
+   .category {
+      .book-section {
+        .category-books {
+          .book-card {
+             width: 90%;
+          }
+        }
+      }
+    }
+}

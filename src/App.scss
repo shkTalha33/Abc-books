@@ -1,0 +1,18 @@
+@import url("./scss/_bootstrap.scss");
+@import url("./scss/_header.scss");
+@import url("./scss/_heroCaraousal.scss");
+@import url("./scss/_footer.scss");
+@import url("./scss/_auth.scss");
+@import url("./scss/_admin.scss");
+@import url("./scss/_bgWant.scss");
+// @import url("./scss/_best-selling-books.scss");
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#root{
+  min-height: 100vh;
+  background-color: #f2e9e4;
+}

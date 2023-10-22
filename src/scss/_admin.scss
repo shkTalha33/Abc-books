@@ -1,0 +1,20 @@
+.admin{
+    .postBtn{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 20px 25px;
+        color: white;
+        background-color: rgb(230, 153, 11);
+        transition: all 0.5s;
+        outline: none;
+        border: none;
+        &:hover{
+            background-color: #e85d04;
+            color: white;
+        }
+        .ant-upload-wrapper .ant-upload-select {
+            display: inline-block;
+        }
+      }
+}

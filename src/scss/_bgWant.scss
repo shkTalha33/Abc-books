@@ -1,0 +1,55 @@
+.bgWant{
+    .row{
+        height: auto;
+    }
+    .bg1{
+        background-image: url("../assets/pics/selling Books/wants-bg1.jpg");
+        width: 49%;
+        height: auto;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .bg2{
+        width: 49%;
+        height: auto;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url("../assets/pics/selling Books/wants-bg2.jpg");
+    }
+    .bg1,.bg2{
+        h1{
+            font-size: 35px;
+            font-family: serif;
+            color: white;
+        }
+        Button{
+            background-color: rgb(230, 153, 11);
+            height: 50px;
+            width:100px;
+            color: white;
+            border-radius: 25px;
+            border: none;
+            outline: none;
+            &:hover{
+                background-color: #e85d04;
+                color: white;
+            }
+        }
+    
+}
+}
+@media  (max-width:768px){
+    .bgWant{
+        .bg1{
+            width: 100%;
+            
+        }
+        .bg2{
+            width: 100%;
+          
+        }
+    }
+    
+}
